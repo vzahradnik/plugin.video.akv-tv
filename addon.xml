@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.akv-tv" name="AKV TV" version="1.0.0" provider-name="Vladimír Záhradník">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Online TV channel of MUDr. Igor Bukovský, PhD.</summary>
+    <summary lang="sk_SK">Online TV kanál MUDr. Igora Bukovského, PhD.</summary>
+    <description lang="en_GB">Here you will find all the videos that have been "deleted" by Censorship from the public YouTube service. They are organized as they were originally posted - by their premiere dates, with their original titles and descriptions, and with the option to comment publicly.</description>
+    <description lang="sk_SK">Na tomto mieste nájdete všetky videá, ktoré boli Cenzúrou „zmazané“ z verejnej služby YouTube. Sú organizované tak ako boli pôvodne publikované – podľa dátumov ich premiéry, s originálnymi názvami a popismi, a s možnosťou verejne komentovať.</description>
+    <disclaimer lang="en_GB">This is not official addon.</disclaimer>
+    <disclaimer lang="sk_SK">Toto nie je oficiálny doplnok.</disclaimer>
+    <language>sk</language>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <website>https://tv.akv.sk/</website>
+    <email>vladimir@zahradnik.io</email>
+    <source>https://github.com/vzahradnik/plugin.video.akv-tv/</source>
+    <news>v1.0.0 (20/02/2022)
+      [new] Initial release
+    </news>
+    <assets>
+        <icon>resources/media/icon.png</icon>
+        <fanart>resources/media/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
